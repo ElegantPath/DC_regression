@@ -10,3 +10,4 @@ from .PKUFH_MRD_BALL import PKUFH_MRD_BALL
 from .XHHM_AL import XHHM_AL
 from .XHHM_BLPD import XHHM_BLPD
 from .ZSUFH_AL import ZSUFH_AL
+from .XYS_6CTBNK import XYS_6CTBNK

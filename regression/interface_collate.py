@@ -55,7 +55,6 @@ class InterfaceCollate(object):
                 else:
                     self.data['norm'] = pd.read_excel(self.config['normCsv'],dtype=self.DTYPE, index_col=0)
 
-
         if 'resuCsv' in self.config and os.path.exists(self.config['normCsv']):
             self.data['resu'] = pd.read_csv(self.config['resuCsv'], dtype=self.DTYPE, index_col=0)
 
